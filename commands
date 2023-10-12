@@ -1,0 +1,13 @@
+#Tested using windows wsl
+
+View drives etc
+sudo ls /mnt/*
+
+Move files from windows to linux (ubuntu)
+sudo cp -r /mnt/c/_WordPress/Plugins/advanced-custom-fields-pro-6-2-1-1/ /home/ricky85/Projects/
+
+Rename directory  - cd to from parent directory
+sudo mv advanced-custom-fields-pro-6-2-1-1/ advanced-custom-fields-pro
+
+Remove directorty
+rm -rf DIR-NAME
